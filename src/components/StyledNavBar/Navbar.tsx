@@ -131,13 +131,13 @@ export default function Navbar({ style }: NavBarProps) {
         </HamBurgerButton>
         <TopNav>
           <NavLink to="/colour" textColor={style.textColor}>
-            COLOUR
+            Colour Game
           </NavLink>
           <NavLink to="/contact" textColor={style.textColor}>
-            CONTACT
+            Contact
           </NavLink>
           <NavLink to="/about" textColor={style.textColor}>
-            ABOUT
+            About
           </NavLink>
         </TopNav>
       </MenuBar>

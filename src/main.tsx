@@ -21,7 +21,7 @@ const router = createBrowserRouter([
 ]);
 
 const NavStyle = {
-  bgColor: "#646cff",
+  bgColor: "#20b2aa",
   textColor: "#fff",
 };
 

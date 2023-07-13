@@ -2,6 +2,9 @@ import { MobileNav } from "./MobileNav";
 import { NavLink } from "./NavLink";
 import { useState } from "react";
 import styled, { css } from "styled-components";
+import { IoSettingsSharp } from "react-icons/io5";
+import React from "react";
+import { Tooltip } from "react-tooltip";
 
 export type NavBarProps = {
   style: StyleProps;
@@ -130,14 +133,30 @@ export default function Navbar({ style }: NavBarProps) {
           <BottomSpan open={open} color={style.textColor} />
         </HamBurgerButton>
         <TopNav>
+          <NavLink to="/about" textColor={style.textColor}>
+            About
+          </NavLink>
+          <NavLink to="/projects" textColor={style.textColor}>
+            Projects
+          </NavLink>
+          <NavLink to="/resume" textColor={style.textColor}>
+            Resume
+          </NavLink>
           <NavLink to="/colour" textColor={style.textColor}>
             Colour Game
           </NavLink>
           <NavLink to="/contact" textColor={style.textColor}>
             Contact
           </NavLink>
-          <NavLink to="/about" textColor={style.textColor}>
-            About
+
+          <NavLink to="/settings" textColor={style.textColor}>
+            <IoSettingsSharp
+              className="inline-block"
+              size="2em"
+              data-tooltip-id="my-tooltip"
+              data-tooltip-content="Settings"
+            />
+            <Tooltip id="my-tooltip" />
           </NavLink>
         </TopNav>
       </MenuBar>

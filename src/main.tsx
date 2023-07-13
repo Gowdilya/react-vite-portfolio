@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import Navbar from "./components/StyledNavBar/Navbar";
-import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ColourGame from "./pages/Colour";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +14,10 @@ const router = createBrowserRouter([
     path: "/about",
     element: <div>About!</div>,
   },
+  {
+    path: "/colour",
+    element: <ColourGame />,
+  },
 ]);
 
 const NavStyle = {
@@ -23,6 +27,7 @@ const NavStyle = {
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
+    <link href="/dist/output.css" rel="stylesheet"></link>
     <Navbar style={NavStyle}></Navbar>
     <RouterProvider router={router} />
   </React.StrictMode>

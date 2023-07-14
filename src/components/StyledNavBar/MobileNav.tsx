@@ -64,11 +64,11 @@ export function MobileNav({ open, setOpen, bgColor, textColor }: MobileProps) {
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
 
-  const handleTouchStart = (e) => {
+  const handleTouchStart = (e: any) => {
     setTouchStart(e.targetTouches[0].clientX);
   };
 
-  const handleTouchMove = (e) => {
+  const handleTouchMove = (e: any) => {
     setTouchEnd(e.targetTouches[0].clientX);
   };
   // Only implementing swipe off for nav menu, since swipe on could interfere with intention of scrolling the page

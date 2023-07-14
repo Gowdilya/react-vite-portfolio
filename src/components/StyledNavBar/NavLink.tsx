@@ -10,10 +10,15 @@ const StyledAnchor = styled.a`
   }
 `;
 
-export function NavLink({ to, textColor, children }) {
+interface NavProps {
+  to: string;
+  textColor: string;
+  children: React.ReactNode;
+}
+export function NavLink(props: NavProps) {
   return (
-    <StyledAnchor href={to} color={textColor}>
-      {children}
+    <StyledAnchor href={props.to} color={props.textColor}>
+      {props.children}
     </StyledAnchor>
   );
 }

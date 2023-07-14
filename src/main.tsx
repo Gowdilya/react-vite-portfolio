@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ColourGamePage from "./pages/Colour";
 import ResumePage from "./pages/Resume";
 import AboutPage from "./pages/About";
+import "./input.css";
 
 const router = createBrowserRouter([
   {

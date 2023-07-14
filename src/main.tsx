@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import Navbar from "./components/StyledNavBar/Navbar";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import ColourGamePage from "./pages/Colour";
 import ResumePage from "./pages/Resume";
 import AboutPage from "./pages/About";
 import "./input.css";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <div>Hello world!</div>,

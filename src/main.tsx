@@ -12,7 +12,7 @@ import "./input.css";
 const router = createHashRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <AboutPage />,
   },
   {
     path: "/about",

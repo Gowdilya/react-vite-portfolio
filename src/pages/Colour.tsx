@@ -1,5 +1,5 @@
-import RGBAlchemy from "../components/Alchemy/RGBAlchemy";
-import { GameData } from "../components/Alchemy/gamaData";
+import RGBAlchemy from "../components/ColourAlchemy/RGBAlchemy";
+import { GameData } from "../components/ColourAlchemy/gamaData";
 
 function ColourGamePage() {
   var gameData: GameData = {

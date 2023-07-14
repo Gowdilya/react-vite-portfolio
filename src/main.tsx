@@ -3,7 +3,9 @@ import ReactDOM from "react-dom/client";
 
 import Navbar from "./components/StyledNavBar/Navbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ColourGame from "./pages/Colour";
+import ColourGamePage from "./pages/Colour";
+import ResumePage from "./pages/Resume";
+import AboutPage from "./pages/About";
 
 const router = createBrowserRouter([
   {
@@ -12,11 +14,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <div>About!</div>,
+    element: <AboutPage />,
   },
   {
     path: "/colour",
-    element: <ColourGame />,
+    element: <ColourGamePage />,
+  },
+  {
+    path: "/resume",
+    element: <ResumePage />,
   },
 ]);
 

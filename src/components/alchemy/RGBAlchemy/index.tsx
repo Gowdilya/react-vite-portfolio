@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Square from "../BasicShapes/Square";
 import ColourGrid from "../ColourGrid";
-import { GameData } from "./../gamaData";
+import { GameData } from "../gamaData";
 interface RGBProps {
   data: GameData;
   handlePlayAgain: (userId: string) => void;

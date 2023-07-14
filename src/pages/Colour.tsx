@@ -1,7 +1,7 @@
-import RGBAlchemy from "../components/alchemy/RGBAlchemy";
-import { GameData } from "../components/alchemy/gamaData";
+import RGBAlchemy from "../components/Alchemy/RGBAlchemy";
+import { GameData } from "../components/Alchemy/gamaData";
 
-function ColourGame() {
+function ColourGamePage() {
   var gameData: GameData = {
     userId: "userID123",
     width: 12,
@@ -39,4 +39,4 @@ function ColourGame() {
   );
 }
 
-export default ColourGame;
+export default ColourGamePage;

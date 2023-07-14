@@ -1,0 +1,159 @@
+html,
+body,
+div,
+ul,
+li,
+span,
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    --main-bg-color: #E1F5FE;
+    --text-color: #263238;
+    --line-color: #0288D1;
+    --main-padding: 14px;
+    color: var(--text-color);
+}
+
+li {
+    list-style-type: none;
+    line-height: 28px;
+}
+.projects li{
+    list-style-type: circle;
+    margin-left:30px;
+}
+.description li {
+    list-style-type: square;
+
+}
+.span-bold {
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.span-grey {
+    font-weight: 400;
+    color: grey;
+    padding-left: 8px;
+}
+
+.b-btm {
+    border-bottom: solid 2px var(--line-color);
+}
+
+.header {
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: var(--main-bg-color);
+}
+
+.full-name {
+    padding: var(--main-padding);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact {
+    text-align: right;
+    line-height: 48px;
+    font-size: 13px;
+    flex-grow: 1;
+    text-transform: uppercase;
+}
+
+.contact span {
+    padding-right: 30px;
+}
+
+.section {
+    margin-left: var(--main-padding);
+    margin-right: var(--main-padding);
+    overflow: hidden;
+    min-height: 60px;
+    padding-top: 30px;
+}
+
+.section-sidebar {
+    font-size: 20px;
+    line-height: 20px;
+    width: 140px;
+    float: left;
+}
+
+.section-main {
+    margin-left: 140px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.section-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: dotted 1px var(--line-color); 
+}
+
+
+.section-item:last-child{
+    border: 0;
+}
+
+.section-item-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.item-line {
+    display: flex;
+    flex-direction: row wrap;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.item-line:last-child{
+    margin-bottom: 0px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.e1 {
+    padding-bottom: 40px;
+}
+
+.date {
+    text-align: right;
+    flex-grow: 1;
+    font-size: 12px;
+}
+
+.tools {
+    margin-top: 10px;
+    height: 20px;
+}
+
+.tools li,
+.item-line li {
+    float: left;
+    background: var(--main-bg-color);
+    color: var(--line-color);
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 0px 8px;
+    margin: 0px 10px 2px 0px;
+}

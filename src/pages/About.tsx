@@ -59,7 +59,7 @@ function AboutPage() {
             <img
               className="rounded-full w-64 h-64 md:w-80 md:h-80  object-cover border-4 border-white shadow-lg"
               //src="/images/portrait.png" // local
-              src="/assets/images/portrait.png" //github pages
+              src="assets/images/portrait.png" //github pages
               alt="Profile Picture"
             />
           </div>

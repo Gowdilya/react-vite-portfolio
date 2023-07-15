@@ -137,18 +137,18 @@ export default function Navbar({ style }: NavBarProps) {
           <NavLink to="/about" textColor={style.textColor}>
             About
           </NavLink>
-          <NavLink to="/projects" textColor={style.textColor}>
+          {/* <NavLink to="/projects" textColor={style.textColor}>
             Projects
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/resume" textColor={style.textColor}>
             Resume
           </NavLink>
           <NavLink to="/colour" textColor={style.textColor}>
             Colour Game
           </NavLink>
-          <NavLink to="/contact" textColor={style.textColor}>
+          {/* <NavLink to="/contact" textColor={style.textColor}>
             Contact
-          </NavLink>
+          </NavLink> */}
 
           <NavLink to="/settings" textColor={style.textColor}>
             <IoSettingsSharp

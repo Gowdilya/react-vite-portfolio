@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NavAnchor = styled.a`
   font-size: 1.25rem; /* 20px */
@@ -9,6 +10,18 @@ const NavAnchor = styled.a`
   margin-top: 1rem; /* 16px */
   margin-bottom: 1rem; /* 16px */
   color: ${(props) => props.color};
+`;
+const StyledLink = styled.div`
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 400;
+  margin: auto;
+  margin-top: 1rem; /* 16px */
+  margin-bottom: 1rem; /* 16px */
+  color: ${(props) => props.color};
+  &:hover {
+    font-size: 2rem;
+  }
 `;
 const NavHeader = styled.a`
   font-size: 1.25rem; /* 20px */
@@ -93,28 +106,19 @@ export function MobileNav({ open, setOpen, bgColor, textColor }: MobileProps) {
         </NavHeader>
       </NavTop>
       <ColDiv>
-        <NavAnchor
-          color={textColor}
-          href="/about"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          About
-        </NavAnchor>
-        <NavAnchor
-          color={textColor}
-          href="/contact"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Contact
-        </NavAnchor>
+        <StyledLink color={textColor}>
+          <Link to="/about">About</Link>
+        </StyledLink>
+        <StyledLink color={textColor}>
+          <Link color={textColor} to="/resume">
+            Resume
+          </Link>
+        </StyledLink>
+        <StyledLink color={textColor}>
+          <Link color={textColor} to="/colour">
+            Colour Game
+          </Link>
+        </StyledLink>
       </ColDiv>
     </NavContainer>
   );

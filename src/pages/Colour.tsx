@@ -21,7 +21,10 @@ function ColourGamePage() {
       <p className="ml-6 mt-6">
         The full complete version of this Game can be found in my repository at{" "}
       </p>
-      <a className="ml-6 mt-6" href="https://github.com/Gowdilya/alchemy">
+      <a
+        className="ml-6 mt-6 underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+        href="https://github.com/Gowdilya/alchemy"
+      >
         https://github.com/Gowdilya/alchemy
       </a>
       <p className="ml-6 mt-6">

@@ -58,7 +58,8 @@ function AboutPage() {
           <div className="flex md:w-1/2 md:pl-10 flex justify-center">
             <img
               className="rounded-full w-64 h-64 md:w-80 md:h-80  object-cover border-4 border-white shadow-lg"
-              src="/images/portrait.png"
+              //src="/images/portrait.png" // local
+              src="/assets/images/portrait.png" //github pages
               alt="Profile Picture"
             />
           </div>

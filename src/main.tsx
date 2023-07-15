@@ -15,15 +15,15 @@ const router = createHashRouter([
     element: <AboutPage />,
   },
   {
-    path: "#/about",
+    path: "/about",
     element: <AboutPage />,
   },
   {
-    path: "#/colour",
+    path: "/colour",
     element: <ColourGamePage />,
   },
   {
-    path: "#/resume",
+    path: "/resume",
     element: <ResumePage />,
   },
 ]);

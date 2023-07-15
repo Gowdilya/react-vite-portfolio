@@ -150,7 +150,7 @@ export default function Navbar({ style }: NavBarProps) {
             Contact
           </NavLink> */}
 
-          <NavLink to="/settings" textColor={style.textColor}>
+          {/* <NavLink to="/settings" textColor={style.textColor}>
             <IoSettingsSharp
               className="inline-block"
               size="2em"
@@ -158,7 +158,7 @@ export default function Navbar({ style }: NavBarProps) {
               data-tooltip-content="Settings"
             />
             <Tooltip id="my-tooltip" />
-          </NavLink>
+          </NavLink> */}
         </TopNav>
       </MenuBar>
     </StyledNav>

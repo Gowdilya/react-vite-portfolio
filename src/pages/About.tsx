@@ -60,7 +60,14 @@ function AboutPage() {
               I am currently seeking new opportunities to further enhance my
               skills and contribute to exciting projects. If you'd like to
               collaborate or discuss potential opportunities, feel free to reach
-              out to me. I would be thrilled to connect!
+              out to me. I would be thrilled to connect! Also checkout my
+              projects on Github:{" "}
+              <a
+                className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="https://github.com/Gowdilya"
+              >
+                https://github.com/Gowdilya
+              </a>
             </p>
           </div>
           {/* <div className="flex md:w-1/2 md:pl-10 flex justify-center"> */}

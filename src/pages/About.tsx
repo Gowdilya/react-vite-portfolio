@@ -5,8 +5,16 @@ function AboutPage() {
         <h2 className="text-3xl md:text-4xl font-semibold text-center text-gray-800 mb-6">
           About Me
         </h2>
+        <div className="flex flex-wrap md:flex-nowrap items-center justify-center mb-9">
+          <img
+            className="text-center rounded-full w-64 h-64 md:w-80 md:h-80  object-cover border-4 border-white shadow-lg"
+            //src="/images/portrait.png" // local
+            src="images/portrait.png" //github pages
+            alt="Profile Picture"
+          />
+        </div>
         <div className="flex flex-wrap md:flex-nowrap items-center justify-center">
-          <div className="md:w-1/2 md:pr-10 mb-6">
+          <div className=" md:pr-10 mb-6">
             <p className="text-gray-700 leading-relaxed text-xl md:text-2xl text-center">
               Hi, I'm{" "}
               <span className="text-indigo-600 font-semibold">
@@ -55,14 +63,9 @@ function AboutPage() {
               out to me. I would be thrilled to connect!
             </p>
           </div>
-          <div className="flex md:w-1/2 md:pl-10 flex justify-center">
-            <img
-              className="rounded-full w-64 h-64 md:w-80 md:h-80  object-cover border-4 border-white shadow-lg"
-              //src="/images/portrait.png" // local
-              src="images/portrait.png" //github pages
-              alt="Profile Picture"
-            />
-          </div>
+          {/* <div className="flex md:w-1/2 md:pl-10 flex justify-center"> */}
+
+          {/* </div> */}
         </div>
       </div>
     </section>

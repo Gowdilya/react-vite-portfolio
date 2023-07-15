@@ -9,24 +9,28 @@ import ResumePage from "./pages/Resume";
 import AboutPage from "./pages/About";
 import "./input.css";
 
-const router = createHashRouter([
+const routes = [
   {
     path: "/",
+    exact: true,
     element: <AboutPage />,
   },
   {
     path: "/about",
+    exact: true,
     element: <AboutPage />,
   },
   {
     path: "/colour",
+    exact: true,
     element: <ColourGamePage />,
   },
   {
     path: "/resume",
     element: <ResumePage />,
   },
-]);
+];
+const Router = createHashRouter(routes);
 
 const NavStyle = {
   bgColor: "#20b2aa",
@@ -37,6 +41,6 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <link href="/dist/output.css" rel="stylesheet"></link>
     <Navbar style={NavStyle}></Navbar>
-    <RouterProvider router={router} />
+    <RouterProvider router={Router} />
   </React.StrictMode>
 );

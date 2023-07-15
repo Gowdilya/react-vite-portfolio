@@ -19,14 +19,7 @@ export default function Layout({
   return (
     <>
       <Navbar style={NavStyle}></Navbar>
-      <div className={styles.inner}>
-        <main>{children}</main>
-        {!home && (
-          <div className={styles.backToHome}>
-            <a>← Back to home</a>
-          </div>
-        )}
-      </div>
+      <main>{children}</main>
     </>
   );
 }

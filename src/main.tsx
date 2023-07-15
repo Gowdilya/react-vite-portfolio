@@ -7,27 +7,44 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import ColourGamePage from "./pages/Colour";
 import ResumePage from "./pages/Resume";
 import AboutPage from "./pages/About";
+import Layout from "./components/Layout/layout";
 import "./input.css";
 
 const routes = [
   {
     path: "/",
     exact: true,
-    element: <AboutPage />,
+    element: (
+      <Layout>
+        <AboutPage />
+      </Layout>
+    ),
   },
   {
     path: "/about",
     exact: true,
-    element: <AboutPage />,
+    element: (
+      <Layout>
+        <AboutPage />
+      </Layout>
+    ),
   },
   {
     path: "/colour",
     exact: true,
-    element: <ColourGamePage />,
+    element: (
+      <Layout>
+        <ColourGamePage />
+      </Layout>
+    ),
   },
   {
     path: "/resume",
-    element: <ResumePage />,
+    element: (
+      <Layout>
+        <ResumePage />
+      </Layout>
+    ),
   },
 ];
 const Router = createHashRouter(routes);

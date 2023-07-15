@@ -32,7 +32,7 @@ export function NavLink(props: NavProps) {
     //   {props.children}
     // </StyledAnchor>
     <StyledDiv color={props.textColor}>
-      <Link to={props.to}></Link>
+      <Link to={props.to}>{props.children}</Link>
     </StyledDiv>
   );
 }

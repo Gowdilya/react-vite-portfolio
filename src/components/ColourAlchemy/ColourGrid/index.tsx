@@ -103,6 +103,8 @@ function ColourGrid(props: GridProps) {
   const createTileRow = (rowId: number) => {
     const gridElements = [];
     for (let i = 1; i < props.gridWidth; i++) {
+      console.log(closestIndex.rowId === rowId && closestIndex.colId === i);
+
       gridElements.push(
         <SquareTile
           key={"tile-" + rowId + "-" + i}

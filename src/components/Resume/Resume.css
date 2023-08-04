@@ -1,10 +1,10 @@
-html,
-body,
-div,
-ul,
-li,
-span,
-h1 {
+.screen-share html,
+.screen-share body,
+.screen-share div,
+.screen-share ul,
+.screen-share li,
+.screen-share span,
+.screen-share h1 {
     margin: 0;
     padding: 0;
     border: 0;

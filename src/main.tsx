@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import Navbar from "./components/StyledNavBar/Navbar";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import ColourGamePage from "./pages/Colour";

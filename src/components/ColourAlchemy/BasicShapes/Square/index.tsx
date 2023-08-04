@@ -11,7 +11,7 @@ function Square(props: SquareProps) {
   return (
     <div
       className={`h-7 w-7 inline-block border-2 ${
-        props.selected ? `border-red-500` : `border-lightgrey`
+        props.selected ? `border-4 border-red-500` : `border-lightgrey`
       }`}
       style={{
         backgroundColor: `rgb(${props.color})`,

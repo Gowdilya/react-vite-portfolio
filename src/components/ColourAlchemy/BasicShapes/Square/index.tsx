@@ -8,9 +8,6 @@ const defaultProps = {
 };
 function Square(props: SquareProps) {
   props = { ...defaultProps, ...props };
-  if (props.selected) {
-    console.log("SELE");
-  }
   return (
     <div
       className={`h-7 w-7 inline-block border-2 ${

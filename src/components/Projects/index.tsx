@@ -39,7 +39,7 @@ export default function Project() {
         <div className="m-6">
           <Card
             link="#/stvtp"
-            projectName=" Demo App(2022)"
+            projectName="CookTop Safety Demo App(2022)"
             description="
         A dashboard app to show case how building/condo managers might view and analyze metrics collected by Cook Top Safety's Smart Sensor technology. Allows you to view various metrics, and both building and unit level breakdown."
           >

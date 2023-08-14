@@ -17,7 +17,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Tnt() {
   return (
-    <div>
+    <div className="container m-auto text-center">
       {/* <Carousel> */}
       <div>
         <img src={"images/1.jpg"} className="sliderimg" alt="" />

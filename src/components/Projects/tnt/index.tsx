@@ -18,35 +18,35 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function Tnt() {
   return (
     <div>
-      <Carousel>
-        <div>
-          <img src={"images/1.jpg"} className="sliderimg" alt="" />
-        </div>
-        <div>
-          <img src={"images/2.jpg"} className="sliderimg" alt="" />
-        </div>
-        <div>
-          <img src={"images/3.jpg"} className="sliderimg" alt="" />
-        </div>
-        <div>
-          <img src={"images/4.jpg"} className="sliderimg" alt="" />
-        </div>
-        <div>
-          <img src={"images/5.jpg"} className="sliderimg" alt="" />
-        </div>
-        <div>
-          <img src={"images/7.jpg"} className="sliderimg" alt="" />
-        </div>
-        <div>
-          <img src={"images/8.jpg"} className="sliderimg" alt="" />
-        </div>
-        <div>
-          <img src={"images/9.jpg"} className="sliderimg" alt="" />
-        </div>
-        <div>
-          <img src={"images/10.jpg"} className="sliderimg" alt="" />
-        </div>
-      </Carousel>
+      {/* <Carousel> */}
+      <div>
+        <img src={"images/1.jpg"} className="sliderimg" alt="" />
+      </div>
+      <div>
+        <img src={"images/2.jpg"} className="sliderimg" alt="" />
+      </div>
+      <div>
+        <img src={"images/3.jpg"} className="sliderimg" alt="" />
+      </div>
+      <div>
+        <img src={"images/4.jpg"} className="sliderimg" alt="" />
+      </div>
+      <div>
+        <img src={"images/5.jpg"} className="sliderimg" alt="" />
+      </div>
+      <div>
+        <img src={"images/7.jpg"} className="sliderimg" alt="" />
+      </div>
+      <div>
+        <img src={"images/8.jpg"} className="sliderimg" alt="" />
+      </div>
+      <div>
+        <img src={"images/9.jpg"} className="sliderimg" alt="" />
+      </div>
+      <div>
+        <img src={"images/10.jpg"} className="sliderimg" alt="" />
+      </div>
+      {/* </Carousel> */}
     </div>
   );
 }

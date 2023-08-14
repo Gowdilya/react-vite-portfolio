@@ -14,8 +14,8 @@ export default function Project() {
           I built just for fun and learning.{" "}
         </p>
         <p>
-          Click on the corresponding black card component to view the related
-          project demo or screenshots.
+          Click on the corresponding card component to view the related project
+          demo or screenshots.
         </p>
         <p>Github links to the code, and client website are posted below.</p>
       </p>

@@ -7,7 +7,7 @@ export default function Project() {
       <div className="m-6">
         <Card
           projectName="Tracking & Traceability App"
-          description="A product tracking and inventory Application that scans QR codes to track parts and products built using React and .Net Core"
+          description="A product tracking and inventory Application that scans QR codes to track parts and products in the manufacturing sector."
         ></Card>
       </div>
       <div className="m-6">

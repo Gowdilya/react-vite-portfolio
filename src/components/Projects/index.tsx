@@ -43,7 +43,7 @@ export default function Project() {
             description="
         A dashboard app to show case how building/condo managers might view and analyze metrics collected by Cook Top Safety's Smart Sensor technology. Allows you to view various metrics, and both building and unit level breakdown."
           >
-            <img src="images/cooktop_logo.png"></img>
+            <img src="images/e.png"></img>
           </Card>
           <div>
             Client Company Website:
@@ -71,7 +71,7 @@ export default function Project() {
             projectName="Tracking & Traceability App(2021)"
             description="A product tracking and inventory Application that scans QR codes to track parts and products(sera4 bluetooth locks) in the manufacturing sector. I was the Front-End Architect who built the front-end client, working with a small team of engineers to build the whole application. This is a full stack application with a MicroService backend architecture."
           >
-            <img src="images/sera4logo.png"></img>
+            <img src="images/2.jpg"></img>
           </Card>
           <div>
             Client Company Website:

@@ -97,7 +97,7 @@ function ColourGrid(props: GridProps) {
     }
   };
 
-  //Set Win
+  //Set Win Condition
   useEffect(() => {
     if (delta < 0.1) {
       props.win();

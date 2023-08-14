@@ -6,6 +6,8 @@ import ColourGamePage from "./pages/Colour";
 import ResumePage from "./pages/Resume";
 import AboutPage from "./pages/About";
 import Layout from "./components/Layout/layout";
+import Project from "./components/Projects";
+import Tnt from "./components/Projects/tnt";
 import "./input.css";
 
 const routes = [
@@ -24,6 +26,24 @@ const routes = [
     element: (
       <Layout>
         <AboutPage />
+      </Layout>
+    ),
+  },
+  {
+    path: "/projects",
+    exact: true,
+    element: (
+      <Layout>
+        <Project />
+      </Layout>
+    ),
+  },
+  {
+    path: "/tracking&traceability",
+    exact: true,
+    element: (
+      <Layout>
+        <Tnt />
       </Layout>
     ),
   },

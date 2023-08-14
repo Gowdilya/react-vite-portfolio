@@ -143,6 +143,9 @@ export default function Navbar({ style }: NavBarProps) {
           <NavLink to="/resume" textColor={style.textColor}>
             Resume
           </NavLink>
+          <NavLink to="/projects" textColor={style.textColor}>
+            Projects
+          </NavLink>
           <NavLink to="/colour" textColor={style.textColor}>
             Colour Game
           </NavLink>

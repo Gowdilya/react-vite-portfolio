@@ -77,6 +77,10 @@ export function MobileNav({ open, setOpen, bgColor, textColor }: MobileProps) {
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
 
+  const handleLink = () => {
+    setOpen(false);
+  };
+
   const handleTouchStart = (e: any) => {
     setTouchStart(e.targetTouches[0].clientX);
   };
@@ -107,15 +111,17 @@ export function MobileNav({ open, setOpen, bgColor, textColor }: MobileProps) {
       </NavTop>
       <ColDiv>
         <StyledLink color={textColor}>
-          <Link to="/about">About</Link>
+          <Link to="/about" onClick={handleLink}>
+            About
+          </Link>
         </StyledLink>
         <StyledLink color={textColor}>
-          <Link color={textColor} to="/resume">
+          <Link color={textColor} to="/resume" onClick={handleLink}>
             Resume
           </Link>
         </StyledLink>
         <StyledLink color={textColor}>
-          <Link color={textColor} to="/projects">
+          <Link color={textColor} to="/projects" onClick={handleLink}>
             Side Projects
           </Link>
         </StyledLink>

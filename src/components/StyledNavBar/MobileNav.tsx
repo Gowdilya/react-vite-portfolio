@@ -119,11 +119,11 @@ export function MobileNav({ open, setOpen, bgColor, textColor }: MobileProps) {
             Side Projects
           </Link>
         </StyledLink>
-        <StyledLink color={textColor}>
+        {/* <StyledLink color={textColor}>
           <Link color={textColor} to="/colour">
             Colour Game
           </Link>
-        </StyledLink>
+        </StyledLink> */}
       </ColDiv>
     </NavContainer>
   );

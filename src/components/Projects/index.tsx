@@ -25,7 +25,9 @@ export default function Project() {
             projectName="Alchemy Colour Game"
             link="#/colour"
             description="A Colour combining game where you combine different hues & shades to get close to the target colour. Built using React & TypeScript, with the use of HashMap to keep track of all the colours."
-          ></Card>
+          >
+            <img src="images/col.png"></img>
+          </Card>
           Complete Game Code:
           <a
             className="ml-2 mt-6 underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
@@ -36,10 +38,13 @@ export default function Project() {
         </div>
         <div className="m-6">
           <Card
-            projectName="Cook Top Safety Demo App"
+            link="#/stvtp"
+            projectName=" Demo App"
             description="
         A dashboard app to show case how building/condo managers might view and analyze metrics collected by Cook Top Safety's Smart Sensor technology. Allows you to view various metrics, and both building and unit level breakdown."
-          ></Card>
+          >
+            <img src="images/cooktop_logo.png"></img>
+          </Card>
           <div>
             Client Company Website:
             <a
@@ -49,6 +54,7 @@ export default function Project() {
               https://www.cooktopsafety.com/
             </a>
           </div>
+
           <div>
             Front-End Code:
             <a
@@ -63,15 +69,28 @@ export default function Project() {
           <Card
             link="#/tracking&traceability"
             projectName="Tracking & Traceability App"
-            description="A product tracking and inventory Application that scans QR codes to track parts and products in the manufacturing sector. I was the Front-End Architect who built the front-end client, working with a small team of engineers to build the whole application. This is a full stack application with a MicroService backend architecture."
-          ></Card>
-          Front-End Code:
-          <a
-            className="ml-2 mt-6 underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
-            href="https://github.com/Gowdilya/tnt"
+            description="A product tracking and inventory Application that scans QR codes to track parts and products(sera4 bluetooth locks) in the manufacturing sector. I was the Front-End Architect who built the front-end client, working with a small team of engineers to build the whole application. This is a full stack application with a MicroService backend architecture."
           >
-            https://github.com/Gowdilya/tnt
-          </a>
+            <img src="images/sera4logo.png"></img>
+          </Card>
+          <div>
+            Client Company Website:
+            <a
+              className="ml-2 mt-6 underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+              href="https://sera4.com/"
+            >
+              https://sera4.com/
+            </a>
+          </div>
+          <div>
+            Front-End Code:
+            <a
+              className="ml-2 mt-6 underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+              href="https://github.com/Gowdilya/tnt"
+            >
+              https://github.com/Gowdilya/tnt
+            </a>
+          </div>
         </div>
       </div>
     </div>

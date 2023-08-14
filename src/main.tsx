@@ -8,6 +8,7 @@ import AboutPage from "./pages/About";
 import Layout from "./components/Layout/layout";
 import Project from "./components/Projects";
 import Tnt from "./components/Projects/tnt";
+import STVTP from "./components/Projects/stvtp";
 import "./input.css";
 
 const routes = [
@@ -44,6 +45,15 @@ const routes = [
     element: (
       <Layout>
         <Tnt />
+      </Layout>
+    ),
+  },
+  {
+    path: "/stvtp",
+    exact: true,
+    element: (
+      <Layout>
+        <STVTP />
       </Layout>
     ),
   },

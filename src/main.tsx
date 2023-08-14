@@ -1,7 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import {
+  createHashRouter,
+  RouterProvider,
+  ScrollRestoration,
+} from "react-router-dom";
 import ColourGamePage from "./pages/Colour";
 import ResumePage from "./pages/Resume";
 import AboutPage from "./pages/About";
@@ -17,6 +21,7 @@ const routes = [
     exact: true,
     element: (
       <Layout>
+        <ScrollRestoration />
         <AboutPage />
       </Layout>
     ),
@@ -27,6 +32,7 @@ const routes = [
     element: (
       <Layout>
         <AboutPage />
+        <ScrollRestoration />
       </Layout>
     ),
   },
@@ -36,6 +42,7 @@ const routes = [
     element: (
       <Layout>
         <Project />
+        <ScrollRestoration />
       </Layout>
     ),
   },
@@ -45,6 +52,7 @@ const routes = [
     element: (
       <Layout>
         <Tnt />
+        <ScrollRestoration />
       </Layout>
     ),
   },
@@ -54,6 +62,7 @@ const routes = [
     element: (
       <Layout>
         <STVTP />
+        <ScrollRestoration />
       </Layout>
     ),
   },
@@ -63,6 +72,7 @@ const routes = [
     element: (
       <Layout>
         <ColourGamePage />
+        <ScrollRestoration />
       </Layout>
     ),
   },

@@ -22,7 +22,7 @@ export default function Project() {
       <div className="container sm:flex m-auto mt-6 text-center">
         <div className="m-6">
           <Card
-            projectName="Alchemy Colour Game"
+            projectName="Alchemy Colour Game(2023)"
             link="#/colour"
             description="A Colour combining game where you combine different hues & shades to get close to the target colour. Built using React & TypeScript, with the use of HashMap to keep track of all the colours."
           >
@@ -39,7 +39,7 @@ export default function Project() {
         <div className="m-6">
           <Card
             link="#/stvtp"
-            projectName=" Demo App"
+            projectName=" Demo App(2022)"
             description="
         A dashboard app to show case how building/condo managers might view and analyze metrics collected by Cook Top Safety's Smart Sensor technology. Allows you to view various metrics, and both building and unit level breakdown."
           >
@@ -68,7 +68,7 @@ export default function Project() {
         <div className="m-6">
           <Card
             link="#/tracking&traceability"
-            projectName="Tracking & Traceability App"
+            projectName="Tracking & Traceability App(2021)"
             description="A product tracking and inventory Application that scans QR codes to track parts and products(sera4 bluetooth locks) in the manufacturing sector. I was the Front-End Architect who built the front-end client, working with a small team of engineers to build the whole application. This is a full stack application with a MicroService backend architecture."
           >
             <img src="images/sera4logo.png"></img>

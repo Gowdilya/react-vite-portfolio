@@ -115,7 +115,7 @@ export default function Navbar({ style }: NavBarProps) {
       <LogoContainer>
         <a href="/">
           <img
-            // src="/images/gowdilya.png" //local
+            //src="/images/gowdilya.png" //local
             src="images/gowdilya.png" //githubpages
             height={144}
             width={144}

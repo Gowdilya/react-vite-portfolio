@@ -67,11 +67,6 @@ const routes = [
 ];
 const Router = createHashRouter(routes);
 
-const NavStyle = {
-  bgColor: "#20b2aa",
-  textColor: "#fff",
-};
-
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <link href="/dist/output.css" rel="stylesheet"></link>

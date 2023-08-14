@@ -144,7 +144,7 @@ export default function Navbar({ style }: NavBarProps) {
             Resume
           </NavLink>
           <NavLink to="/projects" textColor={style.textColor}>
-            Projects
+            Side Projects
           </NavLink>
           <NavLink to="/colour" textColor={style.textColor}>
             Colour Game

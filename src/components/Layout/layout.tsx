@@ -19,7 +19,7 @@ export default function Layout({
   return (
     <>
       <Navbar style={NavStyle}></Navbar>
-      <main>{children}</main>
+      <main className="h-full">{children}</main>
     </>
   );
 }

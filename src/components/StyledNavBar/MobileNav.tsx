@@ -116,7 +116,7 @@ export function MobileNav({ open, setOpen, bgColor, textColor }: MobileProps) {
         </StyledLink>
         <StyledLink color={textColor}>
           <Link color={textColor} to="/projects">
-            Projects
+            Side Projects
           </Link>
         </StyledLink>
         <StyledLink color={textColor}>

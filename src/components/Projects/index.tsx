@@ -44,6 +44,15 @@ export default function Project() {
           >
             <img src="images/chatbot.png"></img>
           </Card>
+          <div>
+            Front-End Code:
+            <a
+              className="ml-2 mt-6 underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+              href="https://github.com/Gowdilya/react-chatbot"
+            >
+              https://github.com/Gowdilya/react-chatbot
+            </a>
+          </div>
         </div>
         <div className="m-6">
           <Card

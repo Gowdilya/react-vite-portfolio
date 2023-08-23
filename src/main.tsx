@@ -13,6 +13,8 @@ import Layout from "./components/Layout/layout";
 import Project from "./components/Projects";
 import Tnt from "./components/Projects/tnt";
 import STVTP from "./components/Projects/stvtp";
+import ChatBot from "./components/Projects/Chat";
+
 import "./input.css";
 
 const routes = [
@@ -52,6 +54,16 @@ const routes = [
     element: (
       <Layout>
         <Tnt />
+        <ScrollRestoration />
+      </Layout>
+    ),
+  },
+  {
+    path: "/chatbot",
+    exact: true,
+    element: (
+      <Layout>
+        <ChatBot />
         <ScrollRestoration />
       </Layout>
     ),

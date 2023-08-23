@@ -38,6 +38,15 @@ export default function Project() {
         </div>
         <div className="m-6">
           <Card
+            projectName="Chat Bot UI(2023)"
+            link="#/chatbot"
+            description="A Simple ChatBot that respondse with random phrases using a MockService"
+          >
+            <img src="images/chatbot.png"></img>
+          </Card>
+        </div>
+        <div className="m-6">
+          <Card
             link="#/stvtp"
             projectName="CookTop Safety Demo App(2022)"
             description="

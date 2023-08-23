@@ -40,7 +40,7 @@ export default function Project() {
           <Card
             projectName="Chat Bot UI(2023)"
             link="#/chatbot"
-            description="A Simple ChatBot that respondse with random phrases using a MockService"
+            description="A Simple ChatBot built using React & TypeScript that respondse with random phrases using a MockService. Also, chat history persistence using browser local storage."
           >
             <img src="images/chatbot.png"></img>
           </Card>

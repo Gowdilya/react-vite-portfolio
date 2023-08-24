@@ -5,7 +5,7 @@ export default function Project() {
   return (
     <div>
       {" "}
-      <p className="container m-auto mt-6 text-center">
+      <p className="m-auto mt-6 text-center">
         {" "}
         Here are some projects I've worked on on my free time outside of my
         9-5(day job).{" "}
@@ -19,7 +19,7 @@ export default function Project() {
         </p>
         <p>Github links to the code, and client website are posted below.</p>
       </p>
-      <div className="container sm:flex m-auto mt-6 text-center">
+      <div className="flex flex-wrap  justify-center text-center">
         <div className="m-6">
           <Card
             projectName="Alchemy Colour Game(2023)"

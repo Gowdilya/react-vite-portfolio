@@ -43,7 +43,7 @@ const ChatWidget = (props: widgetProps) => {
       isUser: true,
     };
 
-    setMessages([...messages, newMessage]);
+    setMessages((messages) => [...messages, newMessage]);
     setIsTyping(true);
     // Use the mockService to get a bot response
     try {
@@ -56,7 +56,7 @@ const ChatWidget = (props: widgetProps) => {
         isUser: false,
       };
 
-      setMessages([...messages, newMessage, botMessage]);
+      setMessages((messages) => [...messages, botMessage]);
     } catch (error) {
       setIsTyping(false);
       count.current = count.current + 1;
@@ -65,7 +65,7 @@ const ChatWidget = (props: widgetProps) => {
         text: "Sorry, there was an error fetching the bot response.",
         isUser: false,
       };
-      setMessages([...messages, errorMessage]);
+      setMessages((messages) => [...messages, errorMessage]);
     }
   };
 

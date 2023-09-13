@@ -16,6 +16,7 @@ import STVTP from "./components/Projects/stvtp";
 import ChatBot from "./components/Projects/Chat";
 
 import "./input.css";
+import TypeAhead from "./components/Projects/TypeAhead";
 
 const routes = [
   {
@@ -25,6 +26,16 @@ const routes = [
       <Layout>
         <ScrollRestoration />
         <AboutPage />
+      </Layout>
+    ),
+  },
+  {
+    path: "/test",
+    exact: true,
+    element: (
+      <Layout>
+        <TypeAhead />
+        <ScrollRestoration />
       </Layout>
     ),
   },
@@ -101,7 +112,7 @@ const Router = createHashRouter(routes);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <link href="/dist/output.css" rel="stylesheet"></link>
+    {/* <link href="/dist/output.css" rel="stylesheet"></link> */}
     <RouterProvider router={Router} />
   </React.StrictMode>
 );

@@ -20,10 +20,10 @@ function AboutPage() {
               <span className="text-indigo-600 font-semibold">
                 Gowdilya Jeyakumar
               </span>
-              , a passionate software developer with expertise in React and
-              front-end web development. I have{" "}
-              <span className="font-semibold">6</span> years of experience in
-              building robust and user-friendly applications, focusing on
+              , a passionate full-stack developer with c# and .NetCore
+              experience and expertise in React and front-end web development. I
+              have <span className="font-semibold">7</span> years of experience
+              in building robust and user-friendly applications, focusing on
               delivering high-quality code and exceptional user experiences.
             </p>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
@@ -31,16 +31,16 @@ function AboutPage() {
               React and its ecosystem. I have a deep understanding of React's
               core concepts, state management, and component-driven development.
               I am proficient in JavaScript, HTML, CSS, and have experience with
-              modern tools and libraries such as Redux, TypeScript, and Styled
-              Components.
+              modern tools and libraries such as ReactQuery, Redux, TypeScript,
+              TailWind css, and StyledComponents.
             </p>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
               I take pride in creating clean, scalable, and maintainable code. I
               am well-versed in modern development practices, including version
-              control with Git, unit testing, and continuous
-              integration/continuous deployment (CI/CD) pipelines. I am
-              constantly exploring new technologies and staying up to date with
-              the latest trends in front-end development.
+              control with Git, isolated ui development with Storybook and unit
+              testing with Jest. I am constantly exploring new technologies and
+              staying up to date with the latest trends in front-end
+              development.
             </p>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
               In addition to my technical skills, I am a strong collaborator and

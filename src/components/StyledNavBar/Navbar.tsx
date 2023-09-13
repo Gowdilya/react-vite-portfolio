@@ -85,7 +85,7 @@ const MenuBar = styled.div`
 `;
 
 const LogoContainer = styled.div`
-  width: 25%;
+  height: 100%;
   display: flex;
   align-items: center;
 `;
@@ -113,15 +113,13 @@ export default function Navbar({ style }: NavBarProps) {
         textColor={style.textColor}
       />
       <LogoContainer>
-        <a href="/">
-          <img
-            //src="/images/gowdilya.png" //local
-            src="images/gowdilya.png" //githubpages
-            height={144}
-            width={144}
-            alt={"Gowdilya"}
-          />
-        </a>
+        <img
+          //src="/images/gowdilya.png" //local
+          src="images/gowdilya.png" //githubpages
+          height={154}
+          width={200}
+          alt={"Gowdilya"}
+        />
       </LogoContainer>
       <MenuBar>
         <HamBurgerButton

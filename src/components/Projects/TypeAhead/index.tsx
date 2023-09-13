@@ -1,13 +1,13 @@
 import { countries } from "./countries";
 import { useEffect, useState, ChangeEvent } from "react";
-interface typeAheadProps {}
 
 const TypeAhead = () => {
-  const [text, setText] = useState();
+  const [text, setText] = useState("");
 
   const handleTextChange = (event: ChangeEvent<HTMLInputElement>) => {
     console.log(event.target.value);
-    setText(event.target.value);
+    let text = event.target.value.toString();
+    setText(text);
   };
 
   const filterCountries = () => {
@@ -21,6 +21,13 @@ const TypeAhead = () => {
       filteredNames = countries.map((country) => country.name);
     }
     console.log(filteredNames);
+    if (text) {
+      return filteredNames.map((countryName) => {
+        return <div>{countryName}</div>;
+      });
+    } else {
+      return <div></div>;
+    }
   };
 
   useEffect(() => {
@@ -34,6 +41,7 @@ const TypeAhead = () => {
         onChange={handleTextChange}
         type="text"
       ></input>
+      {filterCountries()}
     </div>
   );
 };

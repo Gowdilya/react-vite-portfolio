@@ -21,10 +21,11 @@ function AboutPage() {
                 Gowdilya Jeyakumar
               </span>
               , a passionate full-stack developer with c# and .NetCore
-              experience and expertise in React and front-end web development. I
-              have <span className="font-semibold">7</span> years of experience
-              in building robust and user-friendly applications, focusing on
-              delivering high-quality code and exceptional user experiences.
+              experience and expertise in React and Angular front-end web
+              development. I have <span className="font-semibold">7</span> years
+              of experience in building robust and user-friendly applications,
+              focusing on delivering high-quality code and exceptional user
+              experiences.
             </p>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
               Throughout my career, I have worked on various projects leveraging

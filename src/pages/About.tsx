@@ -74,7 +74,10 @@ function AboutPage() {
               Currently, I'm actively seeking new opportunities to further
               enhance my skills and contribute to exciting projects. Feel free
               to check out my:{" "}
-              <Link style={{ color: "rgb(147, 51, 234)" }} to="/projects">
+              <Link
+                className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                to="/projects"
+              >
                 Side Projects{" "}
               </Link>
               or my projects on{" "}
@@ -98,7 +101,30 @@ function AboutPage() {
               md:text-2xl
               text-center"
             >
-              <b>email:</b> gowdilya@gmail.com
+              <b>email: </b>
+              <a
+                className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="mailto:gowdilya@gmail.com?subject=Subject%20Here&body=Body%20Text%20Here"
+              >
+                gowdilya@gmail.com
+              </a>
+            </p>
+            <p
+              className="
+              text-gray-700
+              leading-relaxed
+              mt-2
+              text-xl
+              md:text-2xl
+              text-center"
+            >
+              <b>Linkedin: </b>
+              <a
+                className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="https://www.linkedin.com/in/gowdilya/"
+              >
+                https://www.linkedin.com/in/gowdilya/
+              </a>
             </p>
           </div>
         </div>

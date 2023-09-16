@@ -1,4 +1,3 @@
-import { NavLink } from "../components/StyledNavBar/NavLink";
 import { Link } from "react-router-dom";
 function AboutPage() {
   return (

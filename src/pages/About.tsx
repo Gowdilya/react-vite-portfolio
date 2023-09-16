@@ -33,7 +33,9 @@ function AboutPage() {
               for Verieye Technologies and Lytx Inc from 2016 to 2018.
               Progressing forward, I transitioned into full-stack development,
               employing React and .NetCore to build robust back office
-              applications for Bell Canada from 2018 to 2021.
+              applications for Bell Canada from 2018 to 2021. Became a Front-End
+              expert from my time at Rangle.IO where I worked as a consultant
+              for various Companies from 2021 -2023.
             </p>
             <h3 className="text-2xl md:text-3xl mt-6 font-semibold text-center text-gray-800 mb-6">
               My Expertise

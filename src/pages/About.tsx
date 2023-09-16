@@ -44,12 +44,13 @@ function AboutPage() {
               React and .NetCore.
             </p>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
-              I take pride in creating clean, scalable, and maintainable code. I
-              am well-versed in modern development practices, including version
-              control with Git, isolated ui development with Storybook and unit
-              testing with Jest. I am constantly exploring new technologies and
-              staying up to date with the latest trends in front-end
-              development.
+              I take pride in creating clean, scalable, and maintainable code.
+              With strong OOP fundementals, foundational theory such as SOLID
+              principles. I am well-versed in modern development practices,
+              including version control with Git, isolated ui development with
+              Storybook and unit testing with Jest. I am constantly exploring
+              new technologies and staying up to date with the latest trends in
+              front-end development.
             </p>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
               In addition to my technical skills, I am a strong collaborator and

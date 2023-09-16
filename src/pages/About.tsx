@@ -16,18 +16,28 @@ function AboutPage() {
         <div className="flex flex-wrap md:flex-nowrap items-center justify-center">
           <div className=" md:pr-10 mb-6">
             <p className="text-gray-700 leading-relaxed text-xl md:text-2xl text-center">
-              Hi, I'm{" "}
+              Hello! I'm{" "}
               <span className="text-indigo-600 font-semibold">
                 Gowdilya Jeyakumar
               </span>
-              , a passionate full-stack developer with c# and .NetCore
-              experience and expertise in React and Angular front-end web
-              development. I have <span className="font-semibold">7</span> years
-              of experience in building robust and user-friendly applications,
-              focusing on delivering high-quality code and exceptional user
-              experiences.
+              , a passionate full-stack developer with extensive experience in
+              C#, .NetCore, React, and Angular. Over the course of
+              <span className="font-semibold"> 7</span> years, I've dedicated
+              myself to building top-notch, user-friendly applications with a
+              strong focus on code quality and exceptional user experiences.
             </p>
-            <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
+            <p className="text-gray-700 leading-relaxed text-xl md:text-2xl text-center">
+              My journey in software development began with backend work using
+              ASP.NET, working on sophisticated dashcam-related web applications
+              for Verieye Technologies and Lytx Inc from 2016 to 2018.
+              Progressing forward, I transitioned into full-stack development,
+              employing React and .NetCore to build robust back office
+              applications for Bell Canada from 2018 to 2021.
+            </p>
+            <h3 className="text-2xl md:text-3xl mt-6 font-semibold text-center text-gray-800 mb-6">
+              My Expertise
+            </h3>
+            <p className="text-gray-700 leading-relaxed  text-xl md:text-2xl text-center">
               Throughout my career, I have worked on various projects leveraging
               React and its ecosystem. I have a deep understanding of React's
               core concepts, state management, and component-driven development.
@@ -35,49 +45,45 @@ function AboutPage() {
               modern tools and libraries such as ReactQuery, Redux, TypeScript,
               TailWind css, and StyledComponents.
             </p>
+            <h3 className="text-2xl md:text-3xl mt-6 font-semibold text-center text-gray-800 mb-6">
+              My Approach
+            </h3>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
-              I also have Backend Experience, as thats how I started my career
-              as a developer with ASP.NET, and working on Sophisticated Dashcam
-              related web applications for Verieye Technologies and Lytx Inc
-              From 2016-2018. Then using those same skills to build Full-Stack
-              Back Office applications for Bell Canada from 2018 - 2021 using
-              React and .NetCore.
+              I take pride in creating clean, scalable, and maintainable code,
+              guided by strong OOP fundamentals and adhering to SOLID
+              principles. Modern development practices, including version
+              control with Git, isolated UI development with Storybook, and unit
+              testing with Jest, are integral to my workflow.
             </p>
+            <h3 className="text-2xl md:text-3xl mt-6 font-semibold text-center text-gray-800 mb-6">
+              Collaboration and Beyond
+            </h3>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
-              I take pride in creating clean, scalable, and maintainable code.
-              With strong OOP fundementals, foundational theory such as SOLID
-              principles. I am well-versed in modern development practices,
-              including version control with Git, isolated ui development with
-              Storybook and unit testing with Jest. I am constantly exploring
-              new technologies and staying up to date with the latest trends in
-              front-end development.
+              I thrive in a collaborative environment, enjoying the creative
+              process of brainstorming and problem-solving within
+              cross-functional teams. When I'm not coding, I love pursuing side
+              projects, experimenting with new frameworks, and enjoying outdoor
+              activities. Sharing knowledge and engaging with the developer
+              community through blogging and attending tech meetups is something
+              I'm deeply passionate about.
             </p>
+            <h3 className="text-2xl md:text-3xl mt-6 font-semibold text-center text-gray-800 mb-6">
+              Let's Connect!
+            </h3>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
-              In addition to my technical skills, I am a strong collaborator and
-              an excellent problem solver. I enjoy working in cross-functional
-              teams, brainstorming ideas, and turning them into practical
-              solutions. I thrive in an agile and dynamic environment, where I
-              can contribute my expertise and learn from fellow developers.
-            </p>
-            <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
-              When I'm not coding, you can find me pursuing my side projects,
-              experimenting with new frameworks, or enjoying outdoor activities.
-              I am also passionate about knowledge sharing and actively engage
-              in the developer community through blogging and attending tech
-              meetups.
-            </p>
-            <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
-              I am currently seeking new opportunities to further enhance my
-              skills and contribute to exciting projects. If you'd like to
-              collaborate or discuss potential opportunities, feel free to reach
-              out to me. I would be thrilled to connect! Also checkout my
-              projects on Github:{" "}
+              Currently, I'm actively seeking new opportunities to further
+              enhance my skills and contribute to exciting projects. Feel free
+              to check out my projects on{" "}
               <a
                 className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
                 href="https://github.com/Gowdilya"
               >
-                https://github.com/Gowdilya
-              </a>
+                GitHub
+              </a>{" "}
+              for a glimpse into my work. If you'd like to collaborate or
+              discuss potential opportunities, please don't hesitate to get in
+              touch. I would be thrilled to connect and explore exciting
+              opportunities with you!
             </p>
           </div>
           {/* <div className="flex md:w-1/2 md:pl-10 flex justify-center"> */}

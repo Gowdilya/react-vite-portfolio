@@ -22,7 +22,9 @@ function AboutPage() {
                 Gowdilya Jeyakumar
               </span>
               , a passionate full-stack developer with extensive experience in
-              C#, .NetCore, React, and Angular. Over the course of
+              C#, .NetCore, React, and Angular. Graduated from University of
+              Toronto, with a Bachelor of Science in Computer Science and
+              Mathematics. Over the course of
               <span className="font-semibold"> 7</span> years, I've dedicated
               myself to building top-notch, user-friendly applications with a
               strong focus on code quality and exceptional user experiences.
@@ -33,9 +35,10 @@ function AboutPage() {
               for Verieye Technologies and Lytx Inc from 2016 to 2018.
               Progressing forward, I transitioned into full-stack development,
               employing React and .NetCore to build robust back office
-              applications for Bell Canada from 2018 to 2021. Became a Front-End
-              expert from my time at Rangle.IO where I worked as a consultant
-              for various Companies from 2021 -2023.
+              applications for managing call center agents at Bell Canada from
+              2018 to 2021. Became a Front-End expert from my time at Rangle.IO
+              where I worked as a consultant on projects for various Companies
+              from 2021 - 2023 such as RBC, GreenBridge, and SurveyMonkey.
             </p>
             <h3 className="text-2xl md:text-3xl mt-6 font-semibold text-center text-gray-800 mb-6">
               My Expertise

@@ -65,9 +65,7 @@ function AboutPage() {
               process of brainstorming and problem-solving within
               cross-functional teams. When I'm not coding, I love pursuing side
               projects, experimenting with new frameworks, and enjoying outdoor
-              activities. Sharing knowledge and engaging with the developer
-              community through blogging and attending tech meetups is something
-              I'm deeply passionate about.
+              activities.
             </p>
             <h3 className="text-2xl md:text-3xl mt-6 font-semibold text-center text-gray-800 mb-6">
               Let's Connect!

@@ -48,9 +48,11 @@ function AboutPage() {
               Throughout my career, I have worked on various projects leveraging
               React and its ecosystem. I have a deep understanding of React's
               core concepts, state management, and component-driven development.
-              I am proficient in JavaScript, HTML, CSS, and have experience with
-              modern tools and libraries such as ReactQuery, Redux, TypeScript,
-              TailWind css, and StyledComponents.
+              Experienced with Responsive Design, I create applications to
+              design specifications based on tools like Figma. I am proficient
+              in JavaScript, HTML, CSS, and have experience with modern tools
+              and libraries such as ReactQuery, Redux, TypeScript, TailWind css,
+              and StyledComponents.
             </p>
             <h3 className="text-2xl md:text-3xl mt-6 font-semibold text-center text-gray-800 mb-6">
               My Approach

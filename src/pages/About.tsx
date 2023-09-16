@@ -1,3 +1,5 @@
+import { NavLink } from "../components/StyledNavBar/NavLink";
+import { Link } from "react-router-dom";
 function AboutPage() {
   return (
     <section className="bg-gray-100 py-12">
@@ -73,7 +75,11 @@ function AboutPage() {
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
               Currently, I'm actively seeking new opportunities to further
               enhance my skills and contribute to exciting projects. Feel free
-              to check out my projects on{" "}
+              to check out my:{" "}
+              <Link style={{ color: "rgb(147, 51, 234)" }} to="/projects">
+                Side Projects{" "}
+              </Link>
+              or my projects on{" "}
               <a
                 className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
                 href="https://github.com/Gowdilya"
@@ -85,10 +91,18 @@ function AboutPage() {
               touch. I would be thrilled to connect and explore exciting
               opportunities with you!
             </p>
+            <p
+              className="
+              text-gray-700
+              leading-relaxed
+              mt-6
+              text-xl
+              md:text-2xl
+              text-center"
+            >
+              <b>email:</b> gowdilya@gmail.com
+            </p>
           </div>
-          {/* <div className="flex md:w-1/2 md:pl-10 flex justify-center"> */}
-
-          {/* </div> */}
         </div>
       </div>
     </section>

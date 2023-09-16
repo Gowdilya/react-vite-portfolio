@@ -23,7 +23,7 @@ const StyledDiv = styled.div`
 
 interface NavProps {
   to: string;
-  textColor: string;
+  textColor?: string;
   children: React.ReactNode;
 }
 export function NavLink(props: NavProps) {

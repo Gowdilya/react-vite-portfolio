@@ -35,6 +35,14 @@ function AboutPage() {
               modern tools and libraries such as ReactQuery, Redux, TypeScript,
               TailWind css, and StyledComponents.
             </p>
+            <p>
+              I also have Backend Experience, as thats how I started my career
+              as a developer with ASP.NET, and working on Sophisticated Dashcam
+              related web applications for Verieye Technologies and Lytx Inc
+              From 2016-2018. Then using those same skills to build Full-Stack
+              Back Office applications for Bell Canada from 2018 -2021 using
+              React and .NetCore.
+            </p>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
               I take pride in creating clean, scalable, and maintainable code. I
               am well-versed in modern development practices, including version

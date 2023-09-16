@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavAnchor = styled.a`
   font-size: 1.25rem; /* 20px */
@@ -111,19 +111,51 @@ export function MobileNav({ open, setOpen, bgColor, textColor }: MobileProps) {
       </NavTop>
       <ColDiv>
         <StyledLink color={textColor}>
-          <Link to="/about" onClick={handleLink}>
+          <NavLink
+            to="/about"
+            onClick={handleLink}
+            style={({ isActive }) => {
+              return {
+                fontWeight: isActive ? "bold" : "",
+                color: isActive ? "white" : "rgb(225, 245, 254)",
+                textDecoration: isActive ? "underline" : "",
+              };
+            }}
+          >
             About
-          </Link>
+          </NavLink>
         </StyledLink>
         <StyledLink color={textColor}>
-          <Link color={textColor} to="/resume" onClick={handleLink}>
+          <NavLink
+            color={textColor}
+            to="/resume"
+            onClick={handleLink}
+            style={({ isActive }) => {
+              return {
+                fontWeight: isActive ? "bold" : "",
+                color: isActive ? "white" : "rgb(225, 245, 254)",
+                textDecoration: isActive ? "underline" : "",
+              };
+            }}
+          >
             Resume
-          </Link>
+          </NavLink>
         </StyledLink>
         <StyledLink color={textColor}>
-          <Link color={textColor} to="/projects" onClick={handleLink}>
+          <NavLink
+            color={textColor}
+            to="/projects"
+            onClick={handleLink}
+            style={({ isActive }) => {
+              return {
+                fontWeight: isActive ? "bold" : "",
+                color: isActive ? "white" : "rgb(225, 245, 254)",
+                textDecoration: isActive ? "underline" : "",
+              };
+            }}
+          >
             Side Projects
-          </Link>
+          </NavLink>
         </StyledLink>
         {/* <StyledLink color={textColor}>
           <Link color={textColor} to="/colour">

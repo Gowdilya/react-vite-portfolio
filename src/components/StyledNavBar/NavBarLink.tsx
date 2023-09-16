@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const StyledAnchor = styled.a`
   margin: 1rem; /* 16px */
@@ -26,13 +26,24 @@ interface NavProps {
   textColor?: string;
   children: React.ReactNode;
 }
-export function NavLink(props: NavProps) {
+export function NavBarLink(props: NavProps) {
   return (
     // <StyledAnchor href={props.to} color={props.textColor}>
     //   {props.children}
     // </StyledAnchor>
     <StyledDiv color={props.textColor}>
-      <Link to={props.to}>{props.children}</Link>
+      <NavLink
+        to={props.to}
+        style={({ isActive }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isActive ? "white" : "rgb(225, 245, 254)",
+            textDecoration: isActive ? "underline" : "",
+          };
+        }}
+      >
+        {props.children}
+      </NavLink>
     </StyledDiv>
   );
 }

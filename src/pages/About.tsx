@@ -40,7 +40,7 @@ function AboutPage() {
               as a developer with ASP.NET, and working on Sophisticated Dashcam
               related web applications for Verieye Technologies and Lytx Inc
               From 2016-2018. Then using those same skills to build Full-Stack
-              Back Office applications for Bell Canada from 2018 -2021 using
+              Back Office applications for Bell Canada from 2018 - 2021 using
               React and .NetCore.
             </p>
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">

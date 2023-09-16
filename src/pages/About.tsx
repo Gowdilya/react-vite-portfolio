@@ -35,7 +35,7 @@ function AboutPage() {
               modern tools and libraries such as ReactQuery, Redux, TypeScript,
               TailWind css, and StyledComponents.
             </p>
-            <p>
+            <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
               I also have Backend Experience, as thats how I started my career
               as a developer with ASP.NET, and working on Sophisticated Dashcam
               related web applications for Verieye Technologies and Lytx Inc

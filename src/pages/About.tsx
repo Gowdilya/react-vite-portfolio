@@ -26,7 +26,7 @@ function AboutPage() {
               myself to building top-notch, user-friendly applications with a
               strong focus on code quality and exceptional user experiences.
             </p>
-            <p className="text-gray-700 leading-relaxed text-xl md:text-2xl text-center">
+            <p className="text-gray-700 leading-relaxed mt-3 text-xl md:text-2xl text-center">
               My journey in software development began with backend work using
               ASP.NET, working on sophisticated dashcam-related web applications
               for Verieye Technologies and Lytx Inc from 2016 to 2018.

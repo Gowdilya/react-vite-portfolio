@@ -25,9 +25,10 @@ function AboutPage() {
               C#, .NetCore, React, and Angular. Graduated from University of
               Toronto, with a Bachelor of Science in Computer Science and
               Mathematics. Over the course of
-              <span className="font-semibold"> 7</span> years, I've dedicated
-              myself to building top-notch, user-friendly applications with a
-              strong focus on code quality and exceptional user experiences.
+              <span className="font-semibold"> 7</span> years of full-time work
+              experience, I've dedicated myself to building top-notch,
+              user-friendly applications with a strong focus on code quality and
+              exceptional user experiences.
             </p>
             <p className="text-gray-700 leading-relaxed mt-3 text-xl md:text-2xl text-center">
               My journey in software development began with backend work using

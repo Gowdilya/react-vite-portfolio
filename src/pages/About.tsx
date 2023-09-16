@@ -57,9 +57,10 @@ function AboutPage() {
             <p className="text-gray-700 leading-relaxed mt-6 text-xl md:text-2xl text-center">
               I take pride in creating clean, scalable, and maintainable code,
               guided by strong OOP fundamentals and adhering to SOLID
-              principles. Modern development practices, including version
-              control with Git, isolated UI development with Storybook, and unit
-              testing with Jest, are integral to my workflow.
+              principles, and applying Software Design Patterns. Modern
+              development practices, including version control with Git,
+              isolated UI development with Storybook, and unit testing with
+              Jest, are integral to my workflow.
             </p>
             <h3 className="text-2xl md:text-3xl mt-6 font-semibold text-center text-gray-800 mb-6">
               Collaboration and Beyond
